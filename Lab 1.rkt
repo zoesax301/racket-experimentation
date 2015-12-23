@@ -10,3 +10,11 @@
 
 (+ (cos 0) (sin 0))
 (check-expect (+ (cos 0) (sin 0)) 1)
+
+;Problem 2
+(check-expect (< 15 2) false)
+(check-expect (= 10 10) true)
+(check-expect (max 9 10 17 5) 17)
+(check-expect (gcd 6 24) 6)
+
+;Problem 3
